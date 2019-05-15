@@ -1,0 +1,10 @@
+
+
+               if(extract=='('||extract==')'||extract=='{'||extract=='}'||extract=='['||extract==']'||extract==';'||extract==','){
+                    syntext[syn]=extract;
+                    syn++;
+
+               }else if(extract=='+'||extract=='-'||extract=='*'||extract=='/'||extract=='='||extract=='>'||extract=='<'||extract=='&'){
+                    operat[oper]=extract;
+
+
